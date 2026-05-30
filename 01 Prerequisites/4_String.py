@@ -49,6 +49,7 @@ output = (f"My name is {name}, I am {age} years old, and I am {Nationality}.")
 print(output) #output: My name is Araf, I am 23 years old, and I am Bangladeshi.
 
 #including expressions in f-strings
+print(f"In 5 years, I will be {age + 5} years old.") #output: In 5 years, I will be 28 years old.
 
 #formatting numbers in f-strings
 pi = 3.14159
@@ -68,3 +69,11 @@ print("C:\\Users\\Araf") #output: C:\Users\Araf
 print('It\'s a faltu day!') #output: It's a faltu day!
 #Double Quote (\")
 print("She said, \"No!\"") #output: She said, "No!"
+
+
+
+#Raw Strings
+#Raw strings treat backslashes as literal characters
+raw_string = r"C:\Users\Araf\Python"
+print(raw_string) #output: C:\Users\Araf\Python
+

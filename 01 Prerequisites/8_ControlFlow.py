@@ -33,3 +33,38 @@ else:
 
 #Loops
 #for loop
+#Iterate over a list
+games = ["Valorant", "CS:GO", "GTA V", "Minecraft"]
+for game in games:
+    print(game) #output: Valorant, CS:GO, GTA V, Minecraft (each on a new line) 
+#using range
+for i in range(5):
+    print(i) #output: 0, 1, 2, 3, 4 (each on a new line)
+#with index
+for index, game in enumerate(games):
+    print(f"{index}: {game}") #output: 0: Valorant, 1: CS:GO, 2: GTA V, 3: Minecraft (each on a new line)
+
+
+
+#while loop
+count = 0
+while count < 5:
+    print(count) #output: 0, 1, 2, 3, 4 (each on a new line)
+    count += 1
+
+
+
+#Loop control statements
+#break statement
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+# Output: 0, 1, 2, 3, 4
+
+# Continue: skip iteration
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+# Output: 0, 1, 3, 4
