@@ -38,3 +38,33 @@ print(text[:]) #output: GOAT Ronaldo {the entire string}
 print(text[::2]) #output: GATRnl {every second character}
 print(text[::2]) #output: OA oao {every second character starting from index 1}
 print(text[::-1]) #output: odlanorT AOG {the entire string in reverse}
+
+
+#Formatted Strings(f-strings)
+name = "Araf"
+age = 23
+Nationality = "Bangladeshi"
+#Using f-strings to format the output
+output = (f"My name is {name}, I am {age} years old, and I am {Nationality}.")
+print(output) #output: My name is Araf, I am 23 years old, and I am Bangladeshi.
+
+#including expressions in f-strings
+
+#formatting numbers in f-strings
+pi = 3.14159
+print(f"The value of pi is approximately {pi:.2f}.") #output: The value of pi is approximately 3.14.
+
+
+
+#Special Characters in Strings
+#New Line (\n)
+print("Hello\nWorld") #output: Hello
+                       #        World
+#Tab (\t)
+print("Name:\tAraf") #output: Name:   Araf
+#Backslash (\\)
+print("C:\\Users\\Araf") #output: C:\Users\Araf
+#Single Quote (\')
+print('It\'s a faltu day!') #output: It's a faltu day!
+#Double Quote (\")
+print("She said, \"No!\"") #output: She said, "No!"
