@@ -1,6 +1,5 @@
 #Types of numbers in Python
 #Integer
-import string
 
 
 my_age = 23
